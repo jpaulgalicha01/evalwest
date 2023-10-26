@@ -1,0 +1,67 @@
+html,body{
+    height: 100%;
+    margin: 0;
+}
+@font-face {
+  src: url(../fonts/old-english-text-mt.ttf);
+  font-family: old_english;
+}
+.bg-img{
+    background-image: url("../img/background.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: #0b46a0;
+    color: white;
+}
+
+.title{
+  font-family: 'Playfair Display', serif;
+  font-size: calc(1rem + 2.1vw)!important;;
+  min-height: 0vw;
+}
+.content{
+  font-family: 'Cormorant Garamond', serif;
+  font-size: calc(1rem + .3vw)!important;
+  min-height: -10vw;
+}
+.footer{
+  font-family: 'Helvetica Neue',serif;
+  font-size: calc(1rem + .3vw)!important;;
+  min-height: -10vw;
+}
+
+
+/* User CSS */
+
+.title-user{
+  font-family:'algerian';
+  font-size:  calc(1rem + 3.1vw)!important;
+  min-height: 0vw;
+  color: whitesmoke;
+}
+
+.bg-img-user{
+  background-image: url("../img/background.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: 100% 100%;
+  min-height: 100vh;
+}
+
+fieldset {
+    background-color: #eeeeee;
+  }
+  
+  legend {
+    background-color: gray;
+    color: white;
+    padding: 5px 10px;
+  }
